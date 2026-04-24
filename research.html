@@ -1,144 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>Research</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Fftech Research Lab, Home, UCSB Computer Science">
-      <meta name="author" content="">
-      <!-- Le styles -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="css/theme.css" rel="stylesheet">
-   </head>
-   <body>
-      <div class="container">
-         <header class="jumbotron subhead" id="overview">
-            <p class="lead"> UCSB </p>
-            <h1>Fftech Research Lab</h1>
-         </header>
-	<!-- Navigation sidebar (top) -->
-         <div class="masthead">
-            <div class="navbar">
-               <div class="navbar-inner">
-                  <div class="container">
-                     <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <!-- li><a href="people.html">People</a></li -->
-                        <li><a href="research.html">Research</a></li>
-                        <!-- li><a href="publications.html">Publications</a></li -->
-                        <!-- li><a href="gallery.html">Gallery</a></li -->
-                        <!-- li><a href="news.html">News</a></li -->
-                        <!-- li><a href="teaching.html">Teaching</a></li -->
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <hr>
-         <div class="row-fluid">
-	    <!-- Navigation sidebar (left) -->
-            <div class="span3 bs-docs-sidebar" id="navparent">
-               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
-                  <li><a href="#statemet"> Our Reseach Tracks </a></li>
-                  <li><a href="#clvr"> Liquidity Management in Crypto Payments and DeFi</a></li>
-                  <li><a href="#spacecomp"> Secure Computation on Satellites</a></li>
-                  <!-- li><a class="subhead" href="#Volutpat"> Volutpat </a></li -->
-               </ul>
-            </div>
-	    <!-- Research item -->
-            <div class="span8 offset1">
-               <section id="statement">
-                  <div class="page-header">
-                     <h3>Our Research Tracks</h3>
-                     <hr>
-			<p>
-			Headed by Professor Dahlia Malkhi, the Foundations of Financial Technology (“fftech”) Lab carries research along two principal tracks: distributed systems and decentralized finance.
-			</p>
-			<p>
-			The first track develops systems for decentralized, hybrid off-blockchain / on-blockchain shared state. Our work focuses on off-chain infrastructure for shared state, for layer-2 interoperability, for serving client RPC from high-throughput blockchains, and for data analytics. Through enhances to off-chain infrastructure, we aim to enable composability across the Web3 world, both on and off blockchains.
-			</p>
-			<p>
-			The second track revolves around the intersection between decentralized finance (DeFi) and society. Our work examines economic markets, law &amp regulation, and mechanism design. We look at un-obvious macro-economic measures in DeFi, including price stability and wealth equality. We also aim to scale payment rails and improve liquidity management.
-			</p>
-		  </section>
-               </div>
-	    </div>
-	    <!-- Research item -->
-                  <div class="row-fluid">
-                     <div class="span12">
-                        <section id="clvr">
-			   <h4>Liquidity Management in Crypto Payments and DeFi</h4>
-			   <br/>
-                           <img src="images/Mini-summit1/minisummit1-nir-presenting.jpg" class="float-right" alt="minisummit1-nir-presenting.jpg"/>
-			<p>
-			The rapid growth of blockchain adoption in payments and Decentralized Finance (DeFi) platforms has shifted the primary bottleneck from transaction throughput to <b>liquidity management</b>. Off-chain scaling techniques (e.g., payment channels and rollups) increase throughput but fragment liquidity, creating new challenges: 
-in payment channel networks like Bitcoin’s Lightning, multi-hop transfers can fail if any intermediate channel lacks sufficient capacity; and multiple isolated liquidity pools across L-2s force capital to be spread thin, increasing slippage and degrading user experience
-			</p>
-			<p>
-			The Fftech lab explores liquidity challenges and mitigation techniques as they arise in different settings.
-For example, 
-in the context of automated market makers, the <a href="https://malkhi.com/posts/2023/04/CLVR/">CLVR protocol</a> examines how the sequencing of trades within a block directly impacts slippage-induced failures and the availability of pool liquidity. CLVR’s core insight—that minimizing intra-block price volatility through strategic ordering can substantially reduce slippage-induced failure rates—reveals a feedback loop in which execution failures erode liquidity, which in turn amplifies the likelihood of future failures. 
-			</p>
-                        </section>
-			<hr>
-                     </div>
-                  </div>
-	    <!-- Research item -->
-                  <div class="row-fluid">
-                     <div class="span12">
-                        <section id="spacecomp">
-			   <h4>Secure Computation on Satellites</h4>
-			   <br/>
-                           <img src="images/Mini-summit2/minisummit2-spacecomp.jpg" class="float-right" alt="minisummit2-spacecomp.jpg"/>
-			<p>
-			What if you can run workloads in space?? 🤔
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Fftech Research Lab, UCSB</title>
+  <meta name="description" content="Research focus areas of the Fftech Research Lab at UC Santa Barbara.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/site.css" rel="stylesheet">
+</head>
+<body>
+  <div id="nav-placeholder"></div>
 
-			Satellites carrying purpose-built "payloads", compute devices which are configured and constructed by clients on Earth, are becoming commoditized by companies like Blue Origin, SpaceX, Planet, and others. They push security to new horizons: Compute hardware on satellites is essentially impenetrable, it does not hinge on a single manufacturer, it is immune to side-channel attacks, and is virtually tamper-proof.
+  <main class="container py-4">
+    <h1 class="page-title">Our Research</h1>
 
-			This project explores an exciting new dimension for utilizing satellites:  secure computing platforms.
+    <section class="research-section" id="tracks">
+      <h3 class="section-title">Research Tracks</h3>
+      <p>
+        Headed by Professor Dahlia Malkhi, the Foundations of Financial Technology ("fftech") Lab
+        carries research along two principal tracks: distributed systems and decentralized finance.
+      </p>
+      <p>
+        The first track develops systems for decentralized, hybrid off-blockchain / on-blockchain shared state.
+        Our work focuses on off-chain infrastructure for shared state, for layer-2 interoperability, for serving
+        client RPC from high-throughput blockchains, and for data analytics. Through enhancements to off-chain
+        infrastructure, we aim to enable composability across the Web3 world, both on and off blockchains.
+      </p>
+      <p>
+        The second track revolves around the intersection between decentralized finance (DeFi) and society.
+        Our work examines economic markets, law &amp; regulation, and mechanism design. We look at un-obvious
+        macro-economic measures in DeFi, including price stability and wealth equality. We also aim to scale
+        payment rails and improve liquidity management.
+      </p>
+    </section>
 
-			In a joint bluepaper with SpaceComputer IO: Orbital Root of Trust, we shared a preliminary vision and architecture of a secure orbital compute platform. We continue to work along various research tracks on enhancing the security and performance of computations in orbit.
-	       </section>
-	       <hr>
-	    </div>
-	 </div>
+    <section class="research-section" id="clvr">
+      <h3 class="section-title">Liquidity Management in Crypto Payments and DeFi</h3>
+      <div class="row">
+        <div class="col-lg-8">
+          <p>
+            The rapid growth of blockchain adoption in payments and Decentralized Finance (DeFi) platforms
+            has shifted the primary bottleneck from transaction throughput to <strong>liquidity management</strong>.
+            Off-chain scaling techniques (e.g., payment channels and rollups) increase throughput but fragment
+            liquidity, creating new challenges: in payment channel networks like Bitcoin's Lightning, multi-hop
+            transfers can fail if any intermediate channel lacks sufficient capacity; and multiple isolated
+            liquidity pools across L-2s force capital to be spread thin, increasing slippage and degrading
+            user experience.
+          </p>
+          <p>
+            The Fftech lab explores liquidity challenges and mitigation techniques as they arise in different settings.
+            For example, in the context of automated market makers, the
+            <a href="https://malkhi.com/posts/2023/04/CLVR/">CLVR protocol</a> examines how the sequencing
+            of trades within a block directly impacts slippage-induced failures and the availability of pool
+            liquidity. CLVR's core insight—that minimizing intra-block price volatility through strategic
+            ordering can substantially reduce slippage-induced failure rates—reveals a feedback loop in which
+            execution failures erode liquidity, which in turn amplifies the likelihood of future failures.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="images/Mini-summit1/minisummit1-nir-presenting.jpg" alt="Nir presenting at mini-summit" class="img-fluid rounded">
+        </div>
       </div>
-      <footer id="footer">
-         <div class="container-fluid">
-            <div class="row-fluid">
-               <div class="span5">
-                  <h3>Contact Information</h3>
-                  <a href="mailto:fftech@cs.ucsb.edu">Email</a>
-               </div>
-               <div class="span2">
-                  <a href="https://mybrandnewlogo.com/"><img src = "thumbs/fftech-logo-thumb.jpg" alt="fftech-lab-logo"/></a>
-               </div>
-               <div class="span5">
-                  <h3>Address</h3>
-                  <p>Fftech Generic Research Laboratory<br>
-                     5120a Harold Frank Hall, UCSB<br>
-                     Santa Barbara, CA<br>
-                  </p>
-                  <a href="http://maps.google.com/">Show Map</a>
-               </div>
-            </div>
-         </div>
-      </footer>
+    </section>
 
-      <!-- Le javascript
-         ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="js/jquery-1.9.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script>
-         $(document).ready(function() {
-             $(document.body).scrollspy({
-                 target: "#navparent"
-             });
-         });
-         
-      </script>
-   </body>
+    <section class="research-section" id="spacecomp">
+      <h3 class="section-title">Secure Computation on Satellites</h3>
+      <div class="row">
+        <div class="col-lg-8">
+          <p>
+            What if you can run workloads in space? Satellites carrying purpose-built "payloads"—compute
+            devices which are configured and constructed by clients on Earth—are becoming commoditized by
+            companies like Blue Origin, SpaceX, Planet, and others. They push security to new horizons:
+            compute hardware on satellites is essentially impenetrable, it does not hinge on a single
+            manufacturer, it is immune to side-channel attacks, and is virtually tamper-proof.
+          </p>
+          <p>
+            This project explores an exciting new dimension for utilizing satellites: secure computing platforms.
+            In a joint bluepaper with SpaceComputer IO: Orbital Root of Trust, we shared a preliminary vision
+            and architecture of a secure orbital compute platform. We continue to work along various research
+            tracks on enhancing the security and performance of computations in orbit.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="images/Mini-summit2/IMG_0843.jpg" alt="Space computing research" class="img-fluid rounded">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/site.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderNav('research');
+      renderFooter();
+    });
+  </script>
+</body>
 </html>
