@@ -1,0 +1,95 @@
+{
+  "recurring": {
+    "title": "Weekly Standup + Seminar",
+    "schedule": "Fridays at 11:15am PT",
+    "description": "Weekly Fftech team standup and research seminar."
+  },
+  "events": [
+    {
+      "id": "fbc25",
+      "title": "FBC'25 — Fftech + Blockchain@UCSB Summit",
+      "date": "2025-05-17",
+      "displayDate": "May 17, 2025",
+      "image": "images/FBC25/fbc25-main.jpg",
+      "description": "FBC'25 brought finance and tech together with amazing speakers including Professor Christian Catalini (Lightspark, MIT), Professor Rod Garratt (UCSB Economics), Mark Logan (Mysten Labs), Brandon Curtis (Eigen Labs), Professor Ciamac Moallemi (Columbia Business School), Devin Walsh (Uniswap Foundation), Clara Shikhelman (Chaincode), and many more.",
+      "links": {
+        "Website": "https://ucsbblockchainsummit2025.com/",
+        "YouTube": "https://www.youtube.com/playlist?list=PL1d8wnvvDJEm_SUIcTKHkOlNDTHT27DEG"
+      },
+      "photos": [
+        "images/FBC25/carousel/DSC01628.jpg",
+        "images/FBC25/carousel/DSC01657.jpg",
+        "images/FBC25/carousel/DSC01685.jpg",
+        "images/FBC25/carousel/DSC01707.jpg",
+        "images/FBC25/carousel/DSC01733.jpg",
+        "images/FBC25/carousel/DSC01735.jpg",
+        "images/FBC25/carousel/DSC01743.jpg",
+        "images/FBC25/carousel/DSC01752.jpg",
+        "images/FBC25/carousel/DSC01760.jpg",
+        "images/FBC25/carousel/DSC01764.jpg",
+        "images/FBC25/carousel/DSC01769.jpg",
+        "images/FBC25/carousel/DSC01868.jpg",
+        "images/FBC25/carousel/DSC01890.jpg",
+        "images/FBC25/carousel/DSC01909.jpg",
+        "images/FBC25/carousel/DSC01917.jpg",
+        "images/FBC25/carousel/DSC01924.jpg",
+        "images/FBC25/carousel/DSC01934.jpg",
+        "images/FBC25/carousel/DSC01942.jpg",
+        "images/FBC25/carousel/DSC02009.jpg",
+        "images/FBC25/carousel/DSC02025.jpg",
+        "images/FBC25/carousel/DSC02085.jpg",
+        "images/FBC25/carousel/DSC02135.jpg",
+        "images/FBC25/carousel/DSC02199.jpg",
+        "images/FBC25/carousel/DSC02271.jpg",
+        "images/FBC25/carousel/DSC02295.jpg",
+        "images/FBC25/carousel/DSC02353.jpg"
+      ]
+    },
+    {
+      "id": "minisummit-feb2025",
+      "title": "Fftech Mini Summit",
+      "date": "2025-02-18",
+      "displayDate": "February 18, 2025",
+      "image": "images/Mini-summit2/fftech-minisummit2-room.jpg",
+      "description": "A focused mini-summit featuring presentations from Jacob Leshno (Chicago Booth) on open-source financial rails, Daniel Bar on SpaceCoin orbital root of trust, Yu Feng (UCSB) on Nubit trustless world computer on Bitcoin, Bita Abulfathi on the Uniswap Foundation, and Rithwik Kerur on crash-tolerance in consensus protocols.",
+      "links": {},
+      "photos": [
+        "images/Mini-summit2/IMG_0839.jpg",
+        "images/Mini-summit2/IMG_0843.jpg",
+        "images/Mini-summit2/IMG_0845.jpg",
+        "images/Mini-summit2/IMG_0847_new.jpg",
+        "images/Mini-summit2/IMG_0848.jpg"
+      ]
+    },
+    {
+      "id": "workshop-nov2024",
+      "title": "Fftech Team Half-Day Workshop",
+      "date": "2024-11-07",
+      "displayDate": "November 7, 2024",
+      "image": "",
+      "description": "Half-day workshop with presentations from Hongbo Wen on FORAY attack synthesis against deep DeFi vulnerabilities, Amr El Abbadi on privacy-preserving data management systems, Nir Chemaya on CLVR ordering of transactions on AMMs, and Ted Yin on Firewood, Cordwood, and LyteMemory for blockchain systems.",
+      "links": {},
+      "photos": [
+        "images/Workshop-Nov2024/IMG_0595.jpg",
+        "images/Workshop-Nov2024/IMG_0597.jpg",
+        "images/Workshop-Nov2024/IMG_0602.jpg",
+        "images/Workshop-Nov2024/IMG_0608.jpg",
+        "images/Workshop-Nov2024/IMG_0610.jpg"
+      ]
+    },
+    {
+      "id": "bc-summit-2024",
+      "title": "UCSB Blockchain Summit",
+      "date": "2024-05-01",
+      "displayDate": "May 2024",
+      "image": "images/summit1-beach.png",
+      "description": "The first UCSB Blockchain summit, co-organized by Blockchain@UCSB and Fftech. Sponsored by Hedera, NEAR Foundation, Starknet Foundation, and Coreum.",
+      "links": {},
+      "photos": [
+        "images/summit1-beach.png",
+        "images/BC-Summit-1/dahlia.jpg",
+        "images/BC-Summit-1/christopher-kruegel-largeImage-6-a-2080.jpg"
+      ]
+    }
+  ]
+}
