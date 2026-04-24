@@ -1,0 +1,151 @@
+{
+  "sections": [
+    {
+      "id": "faculty",
+      "title": "Research Faculty",
+      "members": [
+        {
+          "name": "Dahlia Malkhi",
+          "role": "Professor & Lab Head",
+          "photo": "images/Headshots/dahlia-malkhi.jpg",
+          "bio": "Dahlia Malkhi is a Professor in the Department of Computer Science of UCSB since 2024 and the Founding head of the fftech lab. Malkhi serves as Distinguished Scientist of <a href='https://chainlinklabs.com/' target='_blank'>Chainlink Labs</a>, advisor of <a href='https://www.espressosys.com/' target='_blank'>Espresso Systems</a>, advisor of <a href='https://nubit.org' target='_blank'>nubit.org</a>, advisor of <a href='https://spacecoin.network/' target='_blank'>SpaceCoin</a>, former CTO at the <a href='https://www.diem.com/en-us/' target='_blank'>Diem Association</a>, and former Lead Researcher at <a href='https://about.fb.com/news/2020/05/welcome-to-novi/' target='_blank'>Novi Financial</a>. Her research over two decades spans broad aspects of reliability and security of distributed systems, recently with focus on blockchains and advances in financial technology. Her work resulted in over 200 publications as well as a strong impact on computing technology.",
+          "email": "dahliamalkhi@ucsb.edu",
+          "website": "https://malkhi.com",
+          "links": {}
+        }
+      ]
+    },
+    {
+      "id": "postdoc",
+      "title": "Postdoctoral Researchers",
+      "members": [
+        {
+          "name": "Maofan \"Ted\" Yin",
+          "role": "Postdoctoral Researcher",
+          "photo": "images/Headshots/ted-avatar.jpg",
+          "bio": "Ted Yin is co-founder of <a href='https://www.avalabs.org/' target='_blank'>Ava Labs</a>, a co-author of the HotStuff protocol, and the main driver of <a href='https://docs.rs/cordwood/latest/cordwood/' target='_blank'>Cordwood</a>.",
+          "email": "",
+          "website": "",
+          "links": {
+            "Ava Labs": "https://www.avalabs.org/",
+            "Cordwood": "https://github.com/ava-labs/cordwood"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phd",
+      "title": "PhD Students",
+      "members": [
+        {
+          "name": "Kali Hale",
+          "role": "PhD Student",
+          "photo": "images/Headshots/kali-hale.jpg",
+          "bio": "Kali Hale started her graduate studies in computer science at UCSB in fall of 2022 and was accepted to the PhD program in fall of 2024. She graduated from California Lutheran University with her BS in Computer Science in May 2022.",
+          "email": "kalihale@ucsb.edu",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Rithwik Kerur",
+          "role": "PhD Student",
+          "photo": "images/Headshots/Kerur_rithwik_headshot.jpg",
+          "bio": "Rithwik Kerur started his PhD studies in the Computer Science department of UCSB in the fall of 2024. He graduated from UC Irvine in 2024 with a bachelors in Computer Science, and is interested in distributed systems, financial markets, and data management.",
+          "email": "rkerur@ucsb.edu",
+          "website": "",
+          "links": {}
+        }
+      ]
+    },
+    {
+      "id": "masters",
+      "title": "Master's Students",
+      "members": [
+        {
+          "name": "Kaiyang Chang",
+          "role": "Master's Student",
+          "photo": "",
+          "bio": "",
+          "email": "",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Tom Shangguan",
+          "role": "Master's Student",
+          "photo": "images/Headshots/tom-shangguan.jpg",
+          "bio": "Tom Shangguan is a master's student in the Computer Science department at UCSB. His interests include distributed systems, databases, and memory management. He is working on optimizing authenticated data structures—data structures that enable users to verify integrity and authenticity via cryptographic proofs without full data access—to produce smaller proofs for frequently accessed contents.",
+          "email": "",
+          "website": "",
+          "links": {}
+        }
+      ]
+    },
+    {
+      "id": "undergrad",
+      "title": "Undergraduate Students",
+      "members": [
+        {
+          "name": "Kevin Chang",
+          "role": "Undergraduate",
+          "photo": "images/Headshots/kevin-chang.jpg",
+          "bio": "Kevin is an undergraduate student in UCSB. He received his bachelor's degree in UCSB's Department of Applied Mathematics. His interests include distributed systems, AI, and finance.",
+          "email": "",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Ruslan Akhtariev",
+          "role": "Undergraduate",
+          "photo": "images/Headshots/ruslan-akhtariev.jpg",
+          "bio": "Ruslan Akhtariev is an undergraduate student in UCSB and a Web3 developer in Cosmos and Ethereum ecosystems. Ruslan is the Vice President at the Blockchain@UCSB club. His interests include distributed systems, cryptography and finance.",
+          "email": "akhtariev@umail.ucsb.edu",
+          "website": "",
+          "links": {}
+        }
+      ]
+    },
+    {
+      "id": "alumni",
+      "title": "Alumni",
+      "members": [
+        {
+          "name": "Ysabel Chen",
+          "role": "Alumni",
+          "photo": "images/Headshots/ysabel-chen.jpg",
+          "bio": "Ysabel Chen received her bachelor's degree in UCSB's Department of Computer Science. She was the President at Blockchain@UCSB club and has authored a paper debating blockchain regulation. Her interests include distributed systems, finance, and aerospace.",
+          "email": "ysabelchen@ucsb.edu",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Ofir Dvir",
+          "role": "Alumni",
+          "photo": "",
+          "bio": "",
+          "email": "",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Nir Chemaya",
+          "role": "Alumni",
+          "photo": "images/Headshots/nir.png",
+          "bio": "Nir Chemaya received his PhD in Economics in 2025. Chemaya focuses on innovations in the Fintech markets, such as blockchain and Decentralized Finance (DeFi), and agents' interactions with those technologies. He has authored several papers on Decentralized Exchanges and possesses extensive knowledge of blockchain technologies and payment systems. Chemaya was also one of the leaders of the <a href='https://ucsbdefi.wixsite.com/seminar' target='_blank'>UCSB-ECON DeFi Seminar</a>, a graduate-student-led seminar series sponsored by Uniswap.",
+          "email": "nir@ucsb.edu",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Shivaansh \"Shiv\" Kapoor",
+          "role": "Alumni (Emeritus)",
+          "photo": "",
+          "bio": "",
+          "email": "shiv@ucsb.edu",
+          "website": "",
+          "links": {}
+        }
+      ]
+    }
+  ]
+}

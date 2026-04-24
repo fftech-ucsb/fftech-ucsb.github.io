@@ -1,0 +1,44 @@
+{
+  "research": [
+    {
+      "id": "clvr",
+      "title": "CLVR: Transaction Ordering in DeFi",
+      "description": "Examining how transaction ordering in blockchains impacts decentralized finance. The CLVR protocol shows that minimizing intra-block price volatility through strategic ordering can substantially reduce slippage-induced failure rates, revealing a feedback loop where execution failures erode liquidity.",
+      "details": "Our work explores novel ordering rules for DeFi protocols and decentralized exchanges, payment routing enhancements (e.g., Bitcoin Lightning), and protocol-level enforcement without relying on block builders.",
+      "paper": "https://malkhi.com/posts/2023/04/CLVR/",
+      "venue": "Tokenomics 2024",
+      "partners": ["Uniswap", "Ava Labs"],
+      "image": "images/Mini-summit1/minisummit1-nir-presenting.jpg"
+    },
+    {
+      "id": "satellites",
+      "title": "Computing on Satellites",
+      "description": "Exploring satellites as secure computing platforms. Satellites carrying purpose-built payloads offer unique security properties: impenetrability, manufacturer independence, immunity to side-channel attacks, and tamper-proofing.",
+      "details": "In a joint bluepaper with SpaceComputer IO, we shared a preliminary vision and architecture of a secure orbital compute platform. We continue to work along various research tracks on enhancing the security and performance of computations in orbit.",
+      "paper": "",
+      "venue": "",
+      "partners": ["Spacecoin XYZ"],
+      "image": ""
+    }
+  ],
+  "capstone": [
+    {
+      "id": "capstone-storage",
+      "title": "Turbocharging Authenticated Storage for Blockchains",
+      "year": "2025",
+      "sponsor": "Ava Labs",
+      "team": "Avalution",
+      "members": ["Adyah Rastogi", "Wesley Truong", "Justin Lang", "Hao Lee", "Jiahua Ren"],
+      "description": "Optimizing Avalanche blockchain storage through refined key-value pair management using the Firewood design, implemented in Golang."
+    },
+    {
+      "id": "capstone-suichat",
+      "title": "SuiChat",
+      "year": "2025",
+      "sponsor": "Mysten Labs",
+      "team": "Sui Squad",
+      "members": ["Sophia Weiler", "Chloe Ta", "Ben Richardson", "Bonnie Huynh", "Ashton Wong"],
+      "description": "A decentralized end-to-end encrypted messaging application built to eliminate centralized server vulnerabilities."
+    }
+  ]
+}

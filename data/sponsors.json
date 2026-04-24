@@ -1,0 +1,40 @@
+{
+  "sponsors": [
+    {
+      "name": "Chainlink Labs",
+      "logo": "images/Sponsor-logos/Chainlink-Logo-Blue.png",
+      "url": "https://chain.link/",
+      "description": "Professor Malkhi serves as Distinguished Scientist. Hosted the Chainlink 101 lecture series in 2023–24."
+    },
+    {
+      "name": "Espresso Systems",
+      "logo": "images/Sponsor-logos/espresso.png",
+      "url": "https://www.espressosys.com/",
+      "description": "Collaboration on the Hotshot sequencer (based on HotStuff-2) and cross-chain synchronous composition research."
+    },
+    {
+      "name": "Mysten Labs",
+      "logo": "",
+      "url": "https://mystenlabs.com/",
+      "description": "Long-standing research collaboration with numerous joint publications. Sponsored the 2024–25 SuiChat capstone project."
+    },
+    {
+      "name": "SpaceComputer (Spacecoin XYZ)",
+      "logo": "images/Sponsor-logos/SC.png",
+      "url": "",
+      "description": "Joint work on satellites as secure computing platforms. Published a joint bluepaper on orbital computing architecture."
+    },
+    {
+      "name": "Avalanche (Ava Labs)",
+      "logo": "images/Sponsor-logos/AvalancheLogo_Horizontal_1C_Red.png",
+      "url": "https://www.avax.network/",
+      "description": "Sponsored the 2024–25 capstone project on authenticated blockchain storage using the Firewood design."
+    },
+    {
+      "name": "Liquor Labs",
+      "logo": "",
+      "url": "",
+      "description": "Collaboration on spanning web3 state on/off-chain."
+    }
+  ]
+}
