@@ -73,7 +73,7 @@ function renderFooter() {
 
 function getInitials(name) {
   return name.split(' ')
-    .filter(p => p.length > 0)
+    .filter(p => p.length > 0 && /^[a-z]/i.test(p))
     .map(p => p[0].toUpperCase())
     .slice(0, 2)
     .join('');
