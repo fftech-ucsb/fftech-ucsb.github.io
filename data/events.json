@@ -2,7 +2,11 @@
   "recurring": {
     "title": "Weekly Standup + Seminar",
     "schedule": "Fridays at 11:15am PT",
-    "description": "Weekly Fftech team standup and research seminar."
+    "description": "Weekly Fftech team standup and research seminar.",
+    "links": {
+      "Fftech YouTube": "https://www.youtube.com/@FftechLabUCSB",
+      "Blockchain@UCSB": "https://blockchainucsb.com/"
+    }
   },
   "events": [
     {
@@ -11,7 +15,7 @@
       "date": "2025-05-17",
       "displayDate": "May 17, 2025",
       "image": "images/FBC25/fbc25-main.jpg",
-      "description": "FBC'25 brought finance and tech together with amazing speakers including Professor Christian Catalini (Lightspark, MIT), Professor Rod Garratt (UCSB Economics), Mark Logan (Mysten Labs), Brandon Curtis (Eigen Labs), Professor Ciamac Moallemi (Columbia Business School), Devin Walsh (Uniswap Foundation), Clara Shikhelman (Chaincode), and many more.",
+      "description": "FBC'25 brought finance and tech together with amazing speakers including Professor Dahlia Malkhi (UCSB Computer Science), Professor Christian Catalini (Lightspark, MIT), Professor Rod Garratt (UCSB Economics), Mark Logan (Mysten Labs, Sui), Brandon Curtis (Eigen Labs), Professor Ciamac Moallemi (Columbia Business School, Paradigm, Uniswap Labs), Professor Mallesh Pai (Rice University, Economics), Shiv Kapoor (Royco Protocol), Danning Sui (Flashbots), Devin Walsh (Uniswap Foundation), Clara Shikhelman (Chaincode), Roman Akhtariev (Osmosis Labs), and Jai Massari (Lightspark). Student projects presented by Swathi Bhat (Procurement Channels), and the Samurai, Lyquor, and SuiChat teams.",
       "links": {
         "Website": "https://ucsbblockchainsummit2025.com/",
         "YouTube": "https://www.youtube.com/playlist?list=PL1d8wnvvDJEm_SUIcTKHkOlNDTHT27DEG"
@@ -51,8 +55,10 @@
       "date": "2025-02-18",
       "displayDate": "February 18, 2025",
       "image": "images/Mini-summit2/fftech-minisummit2-room.jpg",
-      "description": "A focused mini-summit featuring presentations from Jacob Leshno (Chicago Booth) on open-source financial rails, Daniel Bar on SpaceCoin orbital root of trust, Yu Feng (UCSB) on Nubit trustless world computer on Bitcoin, Bita Abulfathi on the Uniswap Foundation, and Rithwik Kerur on crash-tolerance in consensus protocols.",
-      "links": {},
+      "description": "A focused mini-summit featuring presentations from Professor Jacob Leshno (Chicago Booth) on \"On the Viability of Open-Source Financial Rails: Economic Security of Permissionless Consensus,\" Daniel Bar on \"Spacecoin Computer: Orbital Root of Trust,\" Professor Yu Feng (UCSB) on \"Nubit: Trustless World Computer on Bitcoin,\" Bita Abulfathi on \"Introduction to the Uniswap Foundation,\" and Rithwik Kerur on \"Revisiting Crash-Tolerance In Consensus Protocols.\"",
+      "links": {
+        "Leshno Paper": "https://arxiv.org/abs/2409.08951"
+      },
       "photos": [
         "images/Mini-summit2/IMG_0839.jpg",
         "images/Mini-summit2/IMG_0843.jpg",
@@ -63,11 +69,11 @@
     },
     {
       "id": "workshop-nov2024",
-      "title": "Fftech Team Half-Day Workshop",
+      "title": "Fftech Team Half-Day Mini Workshop",
       "date": "2024-11-07",
       "displayDate": "November 7, 2024",
       "image": "",
-      "description": "Half-day workshop with presentations from Hongbo Wen on FORAY attack synthesis against deep DeFi vulnerabilities, Amr El Abbadi on privacy-preserving data management systems, Nir Chemaya on CLVR ordering of transactions on AMMs, and Ted Yin on Firewood, Cordwood, and LyteMemory for blockchain systems.",
+      "description": "Half-day mini workshop with presentations from Hongbo Wen on \"FORAY: Towards Effective Attack Synthesis against Deep Logical Vulnerabilities in DeFi Protocols,\" Professor Amr El Abbadi on \"Privacy Preserving Data Management Systems,\" Nir Chemaya on \"CLVR Ordering of Transactions on AMMs,\" and Dr. Ted Yin on \"Firewood, Cordwood, and LyteMemory: Single-Level Storage for Blockchain Systems.\"",
       "links": {},
       "photos": [
         "images/Workshop-Nov2024/IMG_0595.jpg",
@@ -83,13 +89,27 @@
       "date": "2024-05-01",
       "displayDate": "May 2024",
       "image": "images/summit1-beach.png",
-      "description": "The first UCSB Blockchain summit, co-organized by Blockchain@UCSB and Fftech. Sponsored by Hedera, NEAR Foundation, Starknet Foundation, and Coreum.",
-      "links": {},
+      "description": "The first UCSB Blockchain summit, co-organized by Blockchain@UCSB and Fftech. Featured speakers included Jung Won Kim (Lantern Finance), Yu Feng (Riema Labs), Jay Freeman (SaurikIT), Jasper Zhang (Hyperbolic), Favio Velarde and Jahanzeb Hussain (Coreum), Cameron Dennis (NEAR Protocol, Blockchain Acceleration Foundation), Dahlia Malkhi (UCSB, Chainlink Labs), Spencer Bogart (Blockchain Capital), and Giovanni Vigna (UCSB, Broadcom). Sponsored by Hedera, NEAR Foundation, Starknet Foundation, and Coreum.",
+      "links": {
+        "Website": "https://www.ucsbblockchainsummit.com/"
+      },
       "photos": [
         "images/summit1-beach.png",
         "images/BC-Summit-1/dahlia.jpg",
         "images/BC-Summit-1/christopher-kruegel-largeImage-6-a-2080.jpg"
       ]
+    },
+    {
+      "id": "blockchain-courses-2023",
+      "title": "2023–2024 Blockchain@UCSB Courses",
+      "date": "2023-09-01",
+      "displayDate": "2023–2024",
+      "image": "",
+      "description": "Blockchain@UCSB offered a Blockchain Fundamentals course to 200+ students and a Chainlink 101 lecture series in partnership with Chainlink Labs.",
+      "links": {
+        "Blockchain@UCSB": "https://blockchainucsb.com/"
+      },
+      "photos": []
     }
   ]
 }

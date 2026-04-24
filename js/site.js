@@ -162,11 +162,15 @@ async function renderEvents(containerId) {
     let html = '';
 
     if (data.recurring) {
+      const recurLinks = Object.entries(data.recurring.links || {}).map(([label, url]) =>
+        `<a href="${url}" target="_blank" class="me-3"><i class="bi bi-box-arrow-up-right"></i> ${label}</a>`
+      ).join('');
       html += `
         <div class="recurring-banner">
           <strong><i class="bi bi-calendar-week"></i> ${data.recurring.title}</strong>
           — ${data.recurring.schedule}<br>
           <small class="text-muted">${data.recurring.description}</small>
+          ${recurLinks ? `<div class="mt-2">${recurLinks}</div>` : ''}
         </div>`;
     }
 
