@@ -64,8 +64,8 @@
         {
           "name": "Kaiyang Chang",
           "role": "Master's Student",
-          "photo": "",
-          "bio": "",
+          "photo": "images/Headshots/kaiyang-chang.jpg",
+          "bio": "Kaiyang is a Master's student in Computer Science at UCSB, where he works with Professor Dahlia Malkhi. His research interests lie at the intersection of blockchain, cryptography, and decentralized finance, with a focus on central limit order books (CLOBs), secure multi-party computation (MPC), smart contracts, and zero-knowledge proofs (ZKPs). Before UCSB, Kaiyang earned a B.S. in Computer Science from Rensselaer Polytechnic Institute (RPI), where he conducted research with Professor Oshani Seneviratne in the BRAINS Lab on decentralized systems and blockchain technologies.",
           "email": "",
           "website": "",
           "links": {}
@@ -102,7 +102,16 @@
           "email": "akhtariev@umail.ucsb.edu",
           "website": "",
           "links": {}
-        }
+        },
+        {
+          "name": "Parth Mahajan",
+          "role": "Undergraduate",
+          "photo": "images/Headshots/parth-mahajan.jpg",
+          "bio": "Parth Mahajan is an undergraduate student at UCSB, double-majoring in Economics & Accounting and Statistics & Data Science. He has been active in crypto markets and DeFi research since 2020. His interests include cross-chain settlement, stablecoin infrastructure, and distributed systems.",
+          "email": "",
+          "website": "",
+          "links": {}
+        },
       ]
     },
     {
