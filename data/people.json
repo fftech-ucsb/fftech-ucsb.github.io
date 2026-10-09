@@ -50,8 +50,26 @@
           "name": "Rithwik Kerur",
           "role": "PhD Student",
           "photo": "images/Headshots/Kerur_rithwik_headshot.jpg",
-          "bio": "Rithwik Kerur started his PhD studies in the Computer Science department of UCSB in the fall of 2024. He graduated from UC Irvine in 2024 with a bachelors in Computer Science, and is interested in distributed systems, financial markets, and data management.",
+          "bio": "Rithwik Kerur started his PhD studies in the Computer Science department of UCSB in the fall of 2024. He graduated from UC Irvine in 2024 with a bachelors in Computer Science, and is interested in distributed systems, distributed computing, financial markets, and data management.",
           "email": "rkerur@ucsb.edu",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Shaunak Umarkhedi",
+          "role": "PhD Student",
+          "photo": "images/Headshots/shaunak.jpg",
+          "bio": "Shaunak Umarkhedi started his PhD studies in Computer Science at UC Santa Barbara in Fall 2026. His research interests include distributed systems, confidential computing, and security.",
+          "email": "shaunakgirishant@ucsb.edu",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Maksym Ioffe",
+          "role": "PhD Student",
+          "photo": "images/Headshots/maksym-ioffe.jpg",
+          "bio": "Maksym Ioffe started his PhD studies in Computer Science at UC Santa Barbara in Fall 2026. He graduated from Cornell University with a bachelor's degree in Computer Science. His research interests include distributed systems, consensus protocols, and applied cryptography.",
+          "email": "maksym@ucsb.edu",
           "website": "",
           "links": {}
         }
@@ -66,15 +84,33 @@
           "role": "Master's Student",
           "photo": "images/Headshots/kaiyang-chang.jpg",
           "bio": "Kaiyang is a Master's student in Computer Science at UCSB, where he works with Professor Dahlia Malkhi. His research interests lie at the intersection of blockchain, cryptography, and decentralized finance, with a focus on central limit order books (CLOBs), secure multi-party computation (MPC), smart contracts, and zero-knowledge proofs (ZKPs). Before UCSB, Kaiyang earned a B.S. in Computer Science from Rensselaer Polytechnic Institute (RPI), where he conducted research with Professor Oshani Seneviratne in the BRAINS Lab on decentralized systems and blockchain technologies.",
-          "email": "",
+          "email": "kaiyang_chang@ucsb.edu",
           "website": "",
           "links": {}
         },
         {
-          "name": "Tom Shangguan",
+          "name": "Neil Roy",
           "role": "Master's Student",
-          "photo": "images/Headshots/tom-shangguan.jpg",
-          "bio": "Tom Shangguan is a master's student in the Computer Science department at UCSB. His interests include distributed systems, databases, and memory management. He is working on optimizing authenticated data structures—data structures that enable users to verify integrity and authenticity via cryptographic proofs without full data access—to produce smaller proofs for frequently accessed contents.",
+          "photo": "images/Headshots/neil-roy.png",
+          "bio": "Neil Roy is a Master's student in the Computer Science department at UCSB. His research is focused on Web3 development, specifically decentralized systems, cryptography, consensus mechanisms, and peer-to-peer network design.",
+          "email": "neilroy@ucsb.edu",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Javin Zipkin",
+          "role": "Master's Student",
+          "photo": "images/Headshots/javin-zipkin.png",
+          "bio": "Javin Zipkin is a BS/MS student in Computer Science, graduating with his masters in 2026. He advanced with his B.S. in Computer Science from UCSB in 2025. Javin is engaged with Fftech and the Air Force Research Laboratory (AFRL) in research on Private Information Retrieval (PIR). Javin is interested in distributed systems, databases, and computational musicology.",
+          "email": "javinzipkin@ucsb.edu",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Sawyer Rice",
+          "role": "Master's Student",
+          "photo": "images/Headshots/sawyer-rice.png",
+          "bio": "Sawyer Rice started his MS studies in the Computer Science department of UCSB in the winter of 2026. He graduated from UCSB in fall of 2025 with a bachelors in Computer Science, and is interested in distributed systems and databases.",
           "email": "",
           "website": "",
           "links": {}
@@ -86,19 +122,10 @@
       "title": "Undergraduate Students",
       "members": [
         {
-          "name": "Kevin Chang",
-          "role": "Undergraduate",
-          "photo": "images/Headshots/kevin-chang.jpg",
-          "bio": "Kevin is an undergraduate student in UCSB. He received his bachelor's degree in UCSB's Department of Applied Mathematics. His interests include distributed systems, AI, and finance.",
-          "email": "",
-          "website": "",
-          "links": {}
-        },
-        {
           "name": "Ruslan Akhtariev",
           "role": "Undergraduate",
           "photo": "images/Headshots/ruslan-akhtariev.jpg",
-          "bio": "Ruslan Akhtariev is an undergraduate student in UCSB and a Web3 developer in Cosmos and Ethereum ecosystems. Ruslan is the Vice President at the Blockchain@UCSB club. His interests include distributed systems, cryptography and finance.",
+          "bio": "Ruslan Akhtariev is an undergraduate student in UCSB and a Web3 developer in Cosmos, Ethereum and Solana ecosystems. Ruslan is the President at the Blockchain@UCSB club. His interests include distributed systems, cryptography and finance.",
           "email": "akhtariev@umail.ucsb.edu",
           "website": "",
           "links": {}
@@ -118,6 +145,24 @@
       "id": "alumni",
       "title": "Alumni",
       "members": [
+        {
+          "name": "Tom Shangguan",
+          "role": "Alumni",
+          "photo": "images/Headshots/tom-shangguan.jpg",
+          "bio": "Tom Shangguan was a master's student in the Computer Science department at UCSB. His interests include distributed systems, databases, and memory management. He is working on optimizing authenticated data structures—data structures that enable users to verify integrity and authenticity via cryptographic proofs without full data access—to produce smaller proofs for frequently accessed contents.",
+          "email": "",
+          "website": "",
+          "links": {}
+        },
+        {
+          "name": "Kevin Chang",
+          "role": "Alumni",
+          "photo": "images/Headshots/kevin-chang.jpg",
+          "bio": "Kevin was an undergraduate student in UCSB. He received his bachelor's degree in UCSB's Department of Applied Mathematics. His interests include distributed systems, AI, and finance.",
+          "email": "",
+          "website": "",
+          "links": {}
+        },
         {
           "name": "Ysabel Chen",
           "role": "Alumni",
