@@ -1,11 +1,12 @@
 {
   "recurring": {
     "title": "Weekly Standup + Seminar",
-    "schedule": "Fridays at 11:15am PT",
+    "schedule": "Fridays at 1 pm PT",
     "description": "Weekly Fftech team standup and research seminar.",
     "links": {
-      "Fftech YouTube": "https://www.youtube.com/@FftechLabUCSB",
-      "Blockchain@UCSB": "https://blockchainucsb.com/"
+      "Fftech YouTube": "https://www.youtube.com/@FftechLabUCSB"
+      //commented the below as the website is not available
+      //"Blockchain@UCSB": "https://blockchainucsb.com/"
     }
   },
   "events": [
