@@ -10,6 +10,36 @@
   },
   "events": [
     {
+      "id": "cber26",
+      "title": "6th Annual [CBER] Conference",
+      "date": "2026-06-01",
+      "displayDate": "June 4-5, 2026",
+      "image": "images/CBER26/cber26_main.webp",
+      "description": "Professor Dahlia Malkhi delivered the invited opening presentation at the <b>CBER Annual Conference 2026</b>, sharing the expertise in blockchain consensus and distributed systems with an international research community. The talk explored Byzantine fault tolerance, a fundamental challenge in blockchain technology, and a central focus of her research. The conference brought together leading researchers from computer science, economics, and finance to exchange ideas and advance blockchain research.",
+      "links": {
+        "Website": "https://cber-forum.org/annual-conference",
+        "YouTube": "https://www.youtube.com/watch?v=N74of7ZCvbs&t=467s"
+      }
+    },
+    {
+      "id": "IC3",
+      "title": "IC3 Blockchain Camp 2026",
+      "date": "2026-06-01",
+      "displayDate": "June 1-7, 2026",
+      "image": "images/IC3_26/ic3_main.jpeg",
+      "description": "Fftech students had a successful showing at <b>IC3 Blockchain Camp 2026</b>, held at Princeton University! Tom Shangguan, Kaiyang Chang, and Rithwik Kerur took <b>1st place</b> in the hackathon with their project, “Infinite Drip: A Universal Cryptocurrency Faucet,” while Saloni Singhal and her team earned <b>2nd place</b> with “Trustless Agents: Trustless Code Audits.” Beyond the hackathon, Fftech students also showcased their research, with Rithwik Kerur presenting <b>“eAID: Elastic Asynchronous Information Dispersal with Post-Dissemination Pruning”</b> and Kaiyang Chang presenting <b>“Trust-Minimized Cross-Chain Trading.”</b>",
+      "links": {
+        "Website": "https://ic3research.org/ic3-blockchain-camp-2026/"
+      },
+      "photos": [
+        "images/IC3_26/ic3_main.jpeg",
+        "images/IC3_26/carousel/ic3_1.jpeg",
+        "images/IC3_26/carousel/ic3_2.jpeg",
+        "images/IC3_26/carousel/ic3_3.jpeg",
+        "images/IC3_26/carousel/ic3_4.webp"
+      ]
+    },
+    {
       "id": "fbc25",
       "title": "FBC'25 — Fftech + Blockchain@UCSB Summit",
       "date": "2025-05-17",
