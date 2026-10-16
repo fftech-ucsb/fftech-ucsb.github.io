@@ -120,7 +120,6 @@
       "image": "images/summit1-beach.png",
       "description": "The first UCSB Blockchain summit, co-organized by Blockchain@UCSB and Fftech. Featured speakers included Jung Won Kim (Lantern Finance), Yu Feng (Riema Labs), Jay Freeman (SaurikIT), Jasper Zhang (Hyperbolic), Favio Velarde and Jahanzeb Hussain (Coreum), Cameron Dennis (NEAR Protocol, Blockchain Acceleration Foundation), Dahlia Malkhi (UCSB, Chainlink Labs), Spencer Bogart (Blockchain Capital), and Giovanni Vigna (UCSB, Broadcom). Sponsored by Hedera, NEAR Foundation, Starknet Foundation, and Coreum.",
       "links": {
-        "Website": "https://www.ucsbblockchainsummit.com/"
       },
       "photos": [
         "images/summit1-beach.png",
@@ -136,7 +135,6 @@
       "image": "",
       "description": "Blockchain@UCSB offered a Blockchain Fundamentals course to 200+ students and a Chainlink 101 lecture series in partnership with Chainlink Labs.",
       "links": {
-        "Blockchain@UCSB": "https://blockchainucsb.com/"
       },
       "photos": []
     }
