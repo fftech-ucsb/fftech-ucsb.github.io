@@ -20,6 +20,16 @@
       "title": "Postdoctoral Researchers",
       "members": [
         {
+          "name": "Nibesh Shrestha",
+          "role": "Postdoctoral Researcher",
+          "photo": "images/Headshots/nibesh.jpg",
+          "bio": "I am a postdoctoral scholar at University of California, Santa Barbara, hosted by Prof. Dahlia Malkhi. My research focuses on developing scalable solutions for distributed consensus, distributed key generation, randomness beacons, and related areas in secure distributed systems.",
+          "email": "nshrestha@ucsb.edu",
+          "website": "https://nibeshrestha.github.io/",
+          "links": {
+          }
+        },
+        {
           "name": "Maofan \"Ted\" Yin",
           "role": "Postdoctoral Researcher",
           "photo": "images/Headshots/ted-avatar.jpg",
