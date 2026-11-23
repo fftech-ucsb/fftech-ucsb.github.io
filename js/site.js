@@ -249,7 +249,7 @@ async function renderProjects(containerId) {
         : '';
 
       const img = proj.image
-        ? `<img src="${proj.image}" alt="${proj.title}" class="card-img-top" style="max-height: 200px; object-fit: cover;" loading="lazy">`
+        ? `<img src="${proj.image}" alt="${proj.title}" class="card-img-top${proj.imageFit === 'contain' ? ' bg-white p-2' : ''}" style="max-height: 200px; object-fit: ${proj.imageFit || 'cover'};" loading="lazy">`
         : '';
 
       html += `

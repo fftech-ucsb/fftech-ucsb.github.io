@@ -1,6 +1,28 @@
 {
   "research": [
     {
+      "id": "quasi",
+      "title": "QUASI: Foundations and Systems for Post-Quantum Hash-Based Quorum Attestation",
+      "description": "QUASI is a newly conceived class of hash-based, post-quantum-secure protocols that enable groups of parties to attest to pre-validated statements at remarkably low cost, introduced by Fftech researchers in <a href=\"https://eprint.iacr.org/2026/2810\" target=\"_blank\">ePrint 2026/2810</a>.<br><br>It rests on a surprising discovery: each party need not authenticate the entire statement. Authenticating only a small subset of symbols suffices for a quorum to attest to the whole. The constructions are operationally simple, requiring neither trusted setup nor interactive preprocessing, and do not rely on SNARKs for aggregation.",
+      "details": "For a 256-bit statement represented by 32 eight-bit symbols, QUASI allows each party to authenticate just two symbols in a 70-party system, or a single symbol in suitable larger systems beginning with 97 parties. Other constructions trade smaller codewords and lower encoding costs for larger per-party contributions, such as 12 symbols. Probabilistic constructions offer further parameter tradeoffs and opportunities to study graceful degradation when corruption exceeds the assumed threshold.<br><br>QUASI opens substantial opportunities in both foundations and practice. These include establishing security definitions and lower bounds, pursuing standardization, incorporating QUASI into post-quantum Byzantine consensus, measuring end-to-end performance including key management, and combining QUASI’s savings with SNARK-based compression.",
+      "paper": "https://eprint.iacr.org/2026/2810",
+      "venue": "",
+      "partners": [],
+      "image": "images/quasi/quasi-codeword.png",
+      "imageFit": "contain"
+    },
+    {
+      "id": "eaid",
+      "title": "Elastic Erasure-Coded Information Dissemination",
+      "description": "How can a sender in a fault-tolerant distributed system adapt its storage and bandwidth costs to actual network conditions, rather than the worst case, without losing data that consensus may have committed?<br><br>Integrating erasure coding into distributed protocols is well studied. The remaining challenge is flexibility: allowing each sender to choose how many fragments to distribute and how many acknowledgments to await, while enabling storage nodes to independently prune surplus fragments. These choices must preserve safety even when senders are malicious. Our investigation has also uncovered fundamental safety issues in existing approaches to flexible erasure-coded dissemination.",
+      "details": "Two companion works from the Fftech lab, <a href=\"https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.DISC.2026.16\" target=\"_blank\">eAID</a> (DISC 2026) and <a href=\"https://arxiv.org/abs/2608.15469\" target=\"_blank\">eAVID</a>, provide the starting point. Both introduce flexibility on two fronts: proposers choose their own quorums, and storage nodes shed surplus fragments as additional responses arrive, through ‘post-dissemination pruning’.<br><br>Building on these foundations, Fftech researchers are exploring integration with consensus protocols offering fast and classic paths; membership changes and onboarding without recoding stored information; and heterogeneous load allocation across participants. We also study where existing approaches fail and how formal specifications and automated proofs can help establish safety.",
+      "paper": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.DISC.2026.16",
+      "venue": "DISC 2026",
+      "partners": [],
+      "image": "images/eAID/eaid.png",
+      "imageFit": "contain"
+    },
+    {
       "id": "clvr",
       "title": "CLVR: Transaction Ordering in DeFi",
       "description": "Examining how transaction ordering in blockchains impacts decentralized finance. The CLVR protocol shows that minimizing intra-block price volatility through strategic ordering can substantially reduce slippage-induced failure rates, revealing a feedback loop where execution failures erode liquidity.",
